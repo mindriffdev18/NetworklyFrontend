@@ -1,0 +1,128 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.mainLogin {
+    background-image: url(../assets/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+    position: relative;
+}
+
+.loginForm {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: rgb(255 255 255 / 32%);
+    border-radius: 10px;
+}
+
+.login_left {
+    width: 50%;
+    height: 90vh;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.login_left img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login_right {
+    width: 50%;
+    padding: 80px;
+}
+
+.login_right h2 {
+    color: #052823;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+
+.login_form_design .fieldDesign label {
+    display: block;
+    font-size: 15px;
+    padding: 4px 0;
+    color: #3e3e3e;
+}
+
+.fieldDesign input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #f5f7fa;
+    border-radius: 8px;
+}
+
+form.login_form_design .fieldDesign {
+    margin-top: 18px;
+}
+
+.fieldDesign input:focus-visible {
+    border: none !important;
+    outline: #5500ff;
+}
+
+.checkBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.checkBox input {
+    accent-color: #052823;
+}
+
+form.login_form_design {
+    padding-top: 20px;
+}
+
+.forget_password a {
+    color: #052823;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+button.submit_btn {
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 0;
+    border: none;
+    background: #052823;
+    color: #fff;
+}
+
+form.login_form_design>a {
+    text-align: center;
+    display: block;
+    color: #052823;
+    text-decoration: none;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.main_login_sec {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}

@@ -10,7 +10,7 @@
             <div class="main_login_sec">
                 <div class="loginForm">
                     <div class="login_left">
-                        <img src="../assets/main-banner.png">
+                        <img src="../assets/login.jpg">
                     </div>
                     <div class="login_right">
                         <h2>Welcome to <span style="">Networkly</span></h2>

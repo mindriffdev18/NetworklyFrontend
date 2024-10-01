@@ -48,7 +48,7 @@
 }
 
 .login_right h2 {
-    color: #052823;
+    color: #4169e1;
     font-size: 32px;
     font-family: Montserrat;
     font-weight: 600;
@@ -87,7 +87,8 @@ form.login_form_design .fieldDesign {
 }
 
 .checkBox input {
-    accent-color: #052823;
+    accent-color: #4169e1;
+    margin-right: 5px;
 }
 
 form.login_form_design {
@@ -95,7 +96,7 @@ form.login_form_design {
 }
 
 .forget_password a {
-    color: #052823;
+    color: #4169e1;
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
@@ -108,14 +109,14 @@ button.submit_btn {
     font-weight: 500;
     border-radius: 0;
     border: none;
-    background: #052823;
+    background: #4169e1;
     color: #fff;
 }
 
 form.login_form_design>a {
     text-align: center;
     display: block;
-    color: #052823;
+    color: #4169e1;
     text-decoration: none;
     padding-top: 10px;
     font-weight: 500;

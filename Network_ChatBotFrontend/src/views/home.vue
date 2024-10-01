@@ -138,7 +138,7 @@ export default{
 
                 </div>
                 <div class="header_end">
-                    <a class="" href="/about">Log in</a>
+                    <a class="" href="/login">Log in</a>
                     <a href="#" class="sign-btn">Sign up</a>
                 </div>
             </div>
